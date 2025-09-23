@@ -26,5 +26,5 @@ RUN useradd app
 USER app
 
 # Specify the default command to run your application when the container starts
-CMD ["python", "flaskapp.py"]
+CMD ["python", "flaskpp.py"]
 
