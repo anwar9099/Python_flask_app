@@ -1,8 +1,8 @@
 # Use the official Python 3.13 image as the base environment
-from python:3.13
+FROM python:3.13
 
 #This creates a wrorking dir called app
-WORKDIR/app
+WORKDIR /app
 
 #This copies my code locally (defined when i do coker build) to second . my working dir
 COPY . .
