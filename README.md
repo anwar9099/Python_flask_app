@@ -1,7 +1,8 @@
 Flask App 🚀
 
-This Flask app creates a basic static webpage plus a dynamic route so you can switch between pages in the browser.
+This Flask app creates a static webpage plus a dynamic route so you can switch between pages in the browser.
 The index page returns HTML that links to a second page, and the second page uses a URL parameter (/firstpage/<id>).
+It then ecompasses this in a ci/cd pipeline that containerises and updates the images once the code in commited and pipeline job has run.
 
 What’s in the repo?
 
