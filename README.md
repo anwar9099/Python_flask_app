@@ -6,36 +6,36 @@ The index page returns HTML that links to a second page, and the second page use
 What’s in the repo?
 
 -Flaskpp.py	the Flask app (homepage + dynamic route)
--Test_flask.py / pytest	makes sure the index route returns HTTP 200 ✅
-Dockerfile	containerises this whole app
-python-test.yml	CI/CD automation (lint + test + build + push image)
-Run locally 💻
-pip install -r requirements.txt
-python flaskpp.py
+-Flask_test.py / pytest	makes sure the index route returns HTTP 200 ✅
+-Dockerfile	containerises this whole app
+-Python-test.yml	CI/CD automation (lint + test + build + push image)
+-Run locally 💻
+-pip install -r requirements.txt
+-python flaskpp.py
 
 
 open:
 
 http://127.0.0.1:5000/
 
-Test 🧪
+Test 
 pytest
 
 Docker 🐳
 
 build:
 
-docker build -t flaskapp .
+-docker build -t flaskapp .
 
 
 run:
 
-docker run -p 5000:5000 flaskapp
+-docker run -p 5000:5000 flaskapp
 
 
 open:
 
-http://127.0.0.1:5000/
+-http://127.0.0.1:5000/
 
 CI/CD ⚙️
 
